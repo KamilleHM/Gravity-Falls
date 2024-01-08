@@ -1,0 +1,266 @@
+*{
+    margin: 0; /*Distância da imagem/texto até a borda da pagina*/
+    padding: 0; /*Distância da imagem/texto até a borda da div por exemplo*/
+    box-sizing: border-box; /*Impede que o padding mude o tamaho da caixa/ preserva  as dimensões da caixa e pode dar um padding nela */
+}
+
+:root{ /*se equipara à raiz de uma árvore, que por sua vez representa o documento. Aplicado ao HTML, :root representa o elemento <html> e é idêntico ao seletor html*/
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #e3dac9;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    text-indent: 2%;
+    width: 100%;
+}
+
+main{
+    padding-top: 5rem;
+}
+
+hr{
+    height: 3.5rem;
+    background-color: #62162f;
+}
+
+nav{
+    position: fixed;
+    padding: 1%;
+    background-color: #a68160;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    /* align-items: center; */
+}
+
+nav a {
+    margin-right: 10%;
+    /* margin-top: 20px; */
+  }
+
+h1{
+    color: #62162f;
+    font-size: 8.2rem;
+    font-weight: 900;
+    text-align: center;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+h2{
+    font-size: 2.8rem;
+    background-color: #62162f;
+}
+
+a{
+    color: rgb(32, 2, 2);
+    /* text-decoration: none; */
+}
+
+a:visited{
+    color: #7f1921;
+}
+
+a:hover{
+    color: rgb(232, 232, 47);
+}
+
+p{
+    text-align: justify;
+    text-indent: 3%;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.pv{
+    text-align: justify;
+    margin: 2rem;
+    padding: 1rem;
+}
+.bill:hover{
+    font-weight: bolder;
+    background-color: black;
+    color: yellow;
+}
+
+.bg{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/gf01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.backg{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/gf30.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bge{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/gf149.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* .bgrd{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/gf99.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} */
+
+.imgm{
+ height: 25rem;
+ width: 25rem;
+ border-radius: 10%;
+}
+
+.imgm:hover{
+    border-radius: 0%;
+}
+
+.imagem1{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.imagem2{
+    width: 50rem;
+    height: 25rem;
+    border-radius: 2%;
+    margin: 0rem 0rem 0rem 40rem;
+}
+
+.dp{
+    border-radius: 5%;
+    width: 35rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    /* height: 22rem; */
+}
+
+.dp:hover{
+    /* animation: fadeInUp 50s ease-out; */
+    transform: scale(1.1);
+}
+
+.personagens{
+    display: flex;
+    justify-content: center;
+}
+
+.perso{
+    /* margin: auto;     */
+    margin: 2rem 2rem 0rem 0rem;
+    padding: 0.5%;
+}
+
+.imag{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 0%;
+}
+
+.imag:hover{
+    border-radius: 2%;
+}
+
+figure{
+    border: thin #a68160 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0.3%;
+    max-width: 26rem;
+    margin: auto;
+}
+
+figcaption{
+    background-color: #7f1921;
+    color: black;
+    font: bolder smaller 'Courier New';
+    padding: 2%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+footer:hover{
+    background-color: black; 
+    color: rgba(249, 249, 3, 0.822);
+    font-weight: bolder;
+}
+
+.alterar{
+    text-align: center;
+}
+
+.botao{
+    padding: 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    background-color: #a68160;
+    color: #e3dac9;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.botao:hover{
+    transform: scale(1.1);
+}
+
+.bt{
+    /* margin: 0rem 0rem 0rem 67rem;    */
+    margin-left: 68rem;
+}
+
+/* .mtds{
+    background-image: url(img/gf25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+.fm{
+    font-size: 2.8rem;   
+    background-color: transparent;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #7f1921;
+    text-decoration: underline;
+    /* font-weight: bolder; */
+}
+
+.tds{
+    padding: 2rem;
+    background-color: #c0a791b1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin: auto; */
+    margin: 2rem 0rem 2rem 50rem;   
+    border-radius: 6rem;
+    width: 50rem;
+    font-weight: bold;
+}
