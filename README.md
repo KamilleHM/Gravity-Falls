@@ -16,7 +16,7 @@ Site desenvolvido por mim para um trabalho da faculdade (tema livre) onde deveri
 <br>
 
 <p align="center">
-  <img alt="What da Cabana do mistério" src="img/gf34.jpg.jpg" width="100%">
+  <img alt="What da Cabana do mistério" src="img/gf34.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
