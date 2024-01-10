@@ -1,7 +1,7 @@
 <h1 align="center">Site sobre Gravity Falls</h1>
 
 <p align="center">
-Site desenvolvido por mim para um trabalho da faculdade (tema livre) onde deveria conter apenas: HTML na primeira página com estilização(CSS)e PHP (Formulário sendo impresso na tela) na segunda página e na ultima um vetor com exercício resolvido </p>
+ O site sobre Gravity Falls é um trabalho de faculdade que fiz para homenagear a série. </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -29,7 +29,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O site sobre Gravity Falls é um trabalho de faculdade que fiz para homenagear a série.
+Site desenvolvido por mim para um trabalho da faculdade (tema livre) onde deveria ter apenas 3 páginas. Deveriamos apenas usar o HTML, CSS e PHP para desenvolver o site. A primeira página deveria conter HTML e CSS, a segunda deveria ser um formulário em PHP que imprimise na tela o que foi preenchido e a 3 e ultima pagina deveria ser um exercício de vetor resolvido.
+
 
 ## :memo: Licença
 
